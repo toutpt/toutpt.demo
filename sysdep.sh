@@ -1,0 +1,9 @@
+apt-get install autotools-dev
+apt-get install automake1.9
+apt-get install libtool
+apt-get install autoconf
+apt-get install libncurses-dev
+apt-get install xsltproc
+apt-get install groff-base
+apt-get install libpcre3-dev
+apt-get install pkg-config
