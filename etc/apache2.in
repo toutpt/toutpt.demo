@@ -29,8 +29,8 @@
 
       ProxyPass       /       http://127.0.0.1:${conf.apache2:ProxyPathPort}/VirtualHostBase/http/${conf.apache2:SiteDomain}:80${conf.apache2:plonesitepath}/VirtualHostRoot/
       ProxyPassReverse /      http://127.0.0.1:${conf.apache2:ProxyPathPort}/VirtualHostBase/http/${conf.apache2:SiteDomain}:80${conf.apache2:plonesitepath}/VirtualHostRoot/
-      ProxyPass /misc_ http://127.0.0.1:${instance:port}/misc_
-      ProxyPass /p_    http://127.0.0.1:${instance:port}/p_
+      ProxyPass /misc_ http://127.0.0.1:${conf.apache2:ProxyPathPort}/misc_
+      ProxyPass /p_    http://127.0.0.1:${conf.apache2:ProxyPathPort}/p_
    </IfModule>
 
    # Gestion des expirations par type de fichiers
