@@ -1,9 +1,5 @@
 <VirtualHost ${conf.apache2:ServerIP}:80>
    ServerName ${conf.apache2:ServerName}
-   Redirect / ${conf.apache2:ServerURL}
-</VirtualHost>
-<VirtualHost ${conf.apache2:ServerIP}:80>
-   ServerName ${conf.apache2:ServerName}
    ServerAlias ${conf.apache2:ServerAlias}
    ServerAdmin ${conf.apache2:ServerAdmin}
 
