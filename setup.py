@@ -26,6 +26,7 @@ setup(name='toutpt.demo',
       install_requires=[
           'setuptools',
           #addons
+          'collective.googlenews',
           'collective.picnik',
           'collective.masonry',
           'collective.portlet.itemview',
