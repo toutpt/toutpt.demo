@@ -40,7 +40,6 @@ setup(name='toutpt.demo',
           'collective.js.datatables',
           'collective.js.jqueryui',
           # -*- Extra requirements: -*-
-          'plone.app.caching',
       ],
       entry_points="""
       # -*- Entry points: -*-
@@ -48,6 +47,4 @@ setup(name='toutpt.demo',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["ZopeSkel"],
       )
