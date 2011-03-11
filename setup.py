@@ -26,20 +26,20 @@ setup(name='toutpt.demo',
       install_requires=[
           'setuptools',
           #addons
-          'collective.googlenews',
           'collective.picnik',
           'collective.masonry',
           'collective.portlet.itemview',
           'collective.sugarcrm',
           'collective.gallery',
+          'collective.googleanalytics',
           'collective.googlelibraries',
+          'collective.googlenews',
           'collective.harlequin',
           'collective.hook',
           'collective.js.cufon',
           'collective.js.datatables',
           'collective.js.jqueryui',
           # -*- Extra requirements: -*-
-          'plone.app.caching',
       ],
       entry_points="""
       # -*- Entry points: -*-
@@ -47,6 +47,4 @@ setup(name='toutpt.demo',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["ZopeSkel"],
       )
