@@ -26,6 +26,7 @@ setup(name='toutpt.demo',
       install_requires=[
           'setuptools',
           #addons
+          'collective.aviaryimageeditor',
           'collective.picnik',
           'collective.masonry',
           'collective.portlet.itemview',
@@ -40,6 +41,7 @@ setup(name='toutpt.demo',
           'collective.js.datatables',
           'collective.js.jqueryui',
           # -*- Extra requirements: -*-
+          'toutpt.unloading',
       ],
       entry_points="""
       # -*- Entry points: -*-

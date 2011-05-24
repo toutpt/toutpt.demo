@@ -6,7 +6,7 @@
     i18n_domain="toutpt.demo">
 
   <five:registerPackage package="." initialize=".initialize" />
-
+  <include package="plone.app.registry"/>
   <genericsetup:registerProfile
       name="default"
       title="toutpt.demo"
