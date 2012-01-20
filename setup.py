@@ -11,13 +11,12 @@ setup(name='toutpt.demo',
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
-        "Framework :: Plone",
         "Programming Language :: Python",
         ],
       keywords='',
-      author='',
+      author='JeanMichel FRANCOIS aka toutpt',
       author_email='jeanmichel.francois@makina-corpus.com',
-      url='http://svn.plone.org/svn/collective/',
+      url='https://github.com/toutpt/toutpt.demo',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['toutpt'],
@@ -44,15 +43,20 @@ setup(name='toutpt.demo',
           'collective.portlet.itemview',
           'collective.portlet.oembed',
           'collective.sugarcrm',
+          'plonetheme.responsive1140',
           # -*- Extra requirements: -*-
           #'toutpt.unloading',
+          'collective.addthis',
+          'collective.disqus',
+          'fourdigits.portlet.twitter',
+          'webcouturier.dropdownmenu',
           'Products.LinguaPlone',
           'Products.PloneFormGen',
+          'plone.app.discussion',
           'plone.app.theming',
       ],
       entry_points="""
       # -*- Entry points: -*-
-
       [z3c.autoinclude.plugin]
       target = plone
       """,
