@@ -45,6 +45,7 @@ setup(name='toutpt.demo',
           'collective.portlet.oembed',
           'collective.sugarcrm',
           'plonetheme.responsive1140',
+          'plonetheme.toutpt',
           # -*- Extra requirements: -*-
           #'toutpt.unloading',
           'collective.addthis',
