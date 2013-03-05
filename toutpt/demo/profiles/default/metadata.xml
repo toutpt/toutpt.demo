@@ -4,10 +4,6 @@
   <dependencies>
     <dependency>profile-collective.masonry:default</dependency>
     <dependency>profile-collective.portlet.itemview:default</dependency>
-    <dependency>profile-collective.sugarcrm:default</dependency>
-    <dependency>profile-collective.gallery:default</dependency>
-    <dependency>profile-collective.js.datatables:default</dependency>
-    <dependency>profile-collective.js.jqueryui:default</dependency>
     <dependency>profile-plone.app.caching:default</dependency>
   </dependencies>
 </metadata>

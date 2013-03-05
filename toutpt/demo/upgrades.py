@@ -1,6 +1,5 @@
 import logging
 from Products.CMFCore.utils import getToolByName
-from plone.app.controlpanel.security import ISecuritySchema
 
 POLICY = 'toutpt.demo'
 PROFILE = 'profile-%s:default' % POLICY
@@ -33,6 +32,7 @@ def quickinstall_addons(context, install=None, uninstall=None, upgrades=None):
                 qi.upgradeProduct(upgrade)
             except KeyError:
                 logger.error('can t upgrade %s' % upgrade)
+
 
 def common(context):
     logger = logging.getLogger(PROFILE)
